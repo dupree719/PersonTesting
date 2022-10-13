@@ -7,6 +7,14 @@ public class Person {
 
     private double id;
 
+    public Person(String name, int age, int weight, char sex, double id) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.sex = sex;
+        this.id = id;
+    }
+
     public char getSex() {
         return sex;
     }
